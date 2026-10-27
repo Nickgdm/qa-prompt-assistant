@@ -1,6 +1,8 @@
-╔══════════════════════════════════════════════════════╗
-║                  QA PROMPT ASSISTANT                  ║
-╚══════════════════════════════════════════════════════╝
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║                                          QA PROMPT ASSISTANT                                            ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
 
 Ferramenta de terminal em Python para criar, revisar e organizar prompts que podem apoiar atividades de Quality Assurance (QA). O projeto explora o uso de modelos de IA como auxílio à preparação de artefatos de teste, mantendo a necessidade de revisão humana.
 
@@ -203,10 +205,10 @@ qa-prompt-assistant/
 
 O QA Prompt Assistant é uma ferramenta de apoio ao estudo e à organização de prompts. Ele não substitui análise de requisitos, execução de testes ou validação humana. Confirme sempre as respostas geradas antes de utilizá-las em atividades de QA.
 
-══════════════════════════════════════════════════════
-
-## Natureza do projeto
-
-Este projeto foi desenvolvido como parte do portfólio de estudos em Quality Assurance (QA), explorando o uso de IA como apoio a atividades de teste. Seu desenvolvimento tem caráter educacional e de experimentação; os recursos disponíveis dependem das configurações e dos provedores escolhidos pelo usuário.
-
-══════════════════════════════════════════════════════
+<pre>
+╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
+║  Este projeto foi desenvolvido como parte do portfólio de estudos em Quality Assurance (QA), explorando ║
+║  o uso de IA como apoio a atividades de teste. Seu desenvolvimento tem caráter educacional, mas é um    ║
+║  projeto pessoal; os recursos dependem das configurações e dos provedores escolhidos pelo usuário.      ║
+╚═════════════════════════════════════════════════════════════════════════════════════════════════════════╝
+</pre>
