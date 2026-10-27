@@ -6,13 +6,9 @@
 
 Ferramenta de terminal em Python para criar, revisar e organizar prompts que podem apoiar atividades de Quality Assurance (QA). O projeto explora o uso de modelos de IA como auxílio à preparação de artefatos de teste, mantendo a necessidade de revisão humana.
 
-══════════════════════════════════════════════════════
-
 ## Sobre o projeto
 
 O QA Prompt Assistant oferece uma interface de terminal em português para orientar a criação de prompts e encaminhá-los a provedores de IA compatíveis ou modelos locais.
-
-══════════════════════════════════════════════════════
 
 ## Funcionalidades
 
@@ -24,8 +20,6 @@ O QA Prompt Assistant oferece uma interface de terminal em português para orien
 - Opções para copiar e exportar prompts em TXT/Markdown.
 - Histórico local opcional.
 - Verificação heurística de prompts e registro local de chamadas. Os contadores não representam a cota oficial de um provedor.
-
-══════════════════════════════════════════════════════
 
 ## Provedores compatíveis
 
@@ -71,8 +65,6 @@ AI_BASE_URL=http://localhost:11434/v1
 
 Consulte a [documentação da API do Ollama](https://docs.ollama.com/api) para detalhes.
 
-══════════════════════════════════════════════════════
-
 ## Usar com GitHub Copilot Chat no VS Code
 
 A opção para abrir um prompt no GitHub Copilot Chat utiliza o comando `code chat -` do VS Code. É necessário ter uma versão compatível do VS Code, o comando `code` disponível no PATH e o acesso ao Copilot configurado.
@@ -80,8 +72,6 @@ A opção para abrir um prompt no GitHub Copilot Chat utiliza o comando `code ch
 Consulte a [documentação da CLI do VS Code](https://code.visualstudio.com/docs/configure/command-line#_start-chat-from-the-command-line).
 
 Essa integração não utiliza uma API do Copilot nem requer uma chave de API no QA Prompt Assistant. A disponibilidade depende da versão instalada do VS Code. Se o comando falhar, copie o prompt e cole-o manualmente no Copilot Chat. O usuário continua responsável por revisar e enviar o conteúdo no VS Code.
-
-══════════════════════════════════════════════════════
 
 ## Instalação
 
@@ -110,8 +100,6 @@ Instale as dependências e execute o programa:
 python3 -m pip install -r requirements.txt
 python3 main.py
 ```
-
-══════════════════════════════════════════════════════
 
 ## Exemplos de configuração
 
@@ -142,8 +130,6 @@ AI_MODEL=llama3.2
 AI_BASE_URL=http://localhost:11434/v1
 ```
 
-══════════════════════════════════════════════════════
-
 ## Segurança e privacidade
 
 - Nunca publique o arquivo `.env` preenchido nem envie chaves de API ao GitHub. Mantenha o arquivo no `.gitignore` e publique apenas o `.env.example` sem segredos.
@@ -151,13 +137,9 @@ AI_BASE_URL=http://localhost:11434/v1
 - Com o Ollama, os prompts são processados localmente por padrão, mas a instalação e a configuração de rede também importam.
 - Não envie senhas, tokens, dados pessoais ou informações confidenciais. Utilize dados fictícios em demonstrações.
 
-══════════════════════════════════════════════════════
-
 ## Limites e custos
 
 O programa não consegue apresentar uma contagem universal de cota restante, custo exato ou tempo de redefinição para todos os provedores. Limites e disponibilidade variam conforme conta, modelo, região, plano e endpoint. Os contadores locais servem apenas como referência das chamadas registradas pelo aplicativo.
-
-══════════════════════════════════════════════════════
 
 ## Testes
 
@@ -167,8 +149,6 @@ Instale as dependências de desenvolvimento e execute os testes:
 py -m pip install -r requirements-dev.txt
 py -m pytest
 ```
-
-══════════════════════════════════════════════════════
 
 ## Estrutura do projeto
 
@@ -190,8 +170,6 @@ qa-prompt-assistant/
 └── tests/
 ```
 
-══════════════════════════════════════════════════════
-
 ## Limitações conhecidas
 
 - Provedores de terceiros precisam oferecer API compatível com OpenAI Chat Completions; serviços não compatíveis podem exigir adaptações.
@@ -199,12 +177,9 @@ qa-prompt-assistant/
 - Respostas de IA podem conter erros e devem ser validadas com requisitos e evidências reais.
 - A avaliação da qualidade de prompts é heurística e não garante a correção das respostas.
 
-══════════════════════════════════════════════════════
-
 ## Considerações finais
 
 O QA Prompt Assistant é uma ferramenta de apoio ao estudo e à organização de prompts. Ele não substitui análise de requisitos, execução de testes ou validação humana. Confirme sempre as respostas geradas antes de utilizá-las em atividades de QA.
-
 <pre>
 ╔═════════════════════════════════════════════════════════════════════════════════════════════════════════╗
 ║  Este projeto foi desenvolvido como parte do portfólio de estudos em Quality Assurance (QA), explorando ║
